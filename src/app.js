@@ -2,7 +2,7 @@ function app(req, res) {
   if (req.url === "/") {
     //
     res.writeHead(200);
-    res.write("Hello to the world of cloud infrastructure!");
+    res.write("<h1>Welcome to the world of NodeJS cloud infrastructure!</h1>");
     res.end();
   } else if (req.url === "/mogenius") {
     // mogenius
